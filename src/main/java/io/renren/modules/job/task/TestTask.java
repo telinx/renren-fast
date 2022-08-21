@@ -7,6 +7,7 @@ import org.apache.commons.lang.builder.ToStringBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 /**
@@ -23,6 +24,7 @@ public class TestTask {
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
 	@Autowired
+	@Lazy
 	private SysUserService sysUserService;
 	
 	public void test(String params){
