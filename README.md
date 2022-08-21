@@ -1,7 +1,8 @@
-
+1. maven：3.5.0
+--- 
 **代码tag创建** 
-1. git tag -a v2.7.3 -m "v2.7.3 回声问题" 
-2. git push origin v2.7.3
+2. git tag -a v2.7.3 -m "v2.7.3 回声问题" 
+3. git push origin v2.7.3
 **项目说明** 
 - renren-fast是一个轻量级的Java快速开发平台，能快速开发项目并交付【接私活利器】
 <br> 
